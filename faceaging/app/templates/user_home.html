@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user_home</title>
+</head>
+<style>
+    body{
+        background-image: url(/static/img/face5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h1{
+        text-align: center;
+    }
+
+</style>
+<body>
+    <h1>WELCOME USER</h1>
+    <p>{{key}}</p>
+    <div>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class=" center-content">
+          
+            <div class="form-group">
+                <label for="fileUpload" class="text-white">Choose a file:</label>
+                <input type="file" class="form-control-file" id="fileUpload" name="fileUpload"><br><br>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </div>
+      
+           
+        
+    </div>
+    </form>
+</div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user_home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-image: url(/static/img/face5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h1{
+        text-align: center;
+    }
+
+</style>
+<body>
+    <h1>WELCOME USER</h1>
+    <p>{{key}}</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="fileUpload" class="text-white">Choose a file:</label>
+                        <input type="file" class="form-control-file" id="fileUpload" name="fileUpload"><br><br>
+                        <button type="submit" class="btn btn-primary">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user_home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body{
+        background-image: url(/static/img/face5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h1{
+        text-align: center;
+    }
+
+</style>
+<body>
+    <h1>WELCOME USER</h1>
+    <p>{{key}}</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">File Upload</h5>
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="fileUpload" class="text-white">Choose a file:</label>
+                                <input type="file" class="form-control-file" id="fileUpload" name="fileUpload"><br><br>
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
